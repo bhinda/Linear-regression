@@ -21,7 +21,7 @@ library("DAAG")
 cat("\014") # Clearing the screen
 
 getwd()
-setwd("C:/YYYYYY/AMMA 2017/Data/data_2017/titanic") #This working directory is the folder where all the bank data is stored
+setwd("C:/Users/Apurva Bhinda/Desktop/Term 4/AMMA/codes/titanic") #This working directory is the folder where all the bank data is stored
 
 titanic_train_2<-read.csv('train.csv')
 titanic_train<-titanic_train_2
